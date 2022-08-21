@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+  margin: 0px;
+}
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #000000 , #000000);
+  position: relative;
+  text-align: center;
+}
+
+.logo img{
+  position: fixed;
+  margin: 0 auto;
+  width: 15%;
+  padding-top: 230px;
+  padding-left: 170px;
+  left: 480px;
+  z-index: 1;
+}
+
+.title{
+  color: orangered;
+  font-size: 2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  left: 0;
+}
+
+.glassMorph{
+  background: rgba( 244, 238, 238, 0.10 );
+box-shadow: 0 8px 32px 0 rgba(255, 128, 0, 0.37);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+  width: 30%;
+  height: 30vh;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  z-index: 2;
+}
+
+.glassMorph:hover{
+  position: relative;
+  z-index: 0;
+}
