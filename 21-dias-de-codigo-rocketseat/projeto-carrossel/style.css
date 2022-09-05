@@ -8,6 +8,10 @@ body {
   background-color: #5d5d5d;
 }
 
+img{
+  width: 500px;
+}
+
 
 .slider_container {
   position: relative;
